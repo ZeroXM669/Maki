@@ -14,3 +14,6 @@ function showSection(id) {
   });
   document.getElementById(id).classList.remove("hidden");
 }
+function openLetter() {
+  document.getElementById("letterContent").classList.remove("hidden");
+}
