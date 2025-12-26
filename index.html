@@ -15,9 +15,23 @@
   <p id="error"></p>
 </div>
 
-<div id="content" class="hidden">
-  <h1>Bienvenida mi niña espero te guste el detallito 💙</h1>
+<div id="letter" class="section hidden">
 
+  <button class="open-letter-btn" onclick="openLetter()">
+    💌 Love Letter
+  </button>
+
+  <div id="letterContent" class="letter-box hidden">
+    <h2>My Dearest,</h2>
+    <h3>A Letter For You</h3>
+
+    <p>
+      Aquí va tu carta 💙<br><br>
+      Escríbela con calma, con lo que sientas.
+    </p>
+  </div>
+
+</div>
   <div class="menu">
     <button onclick="showSection('music')">🎵 Música</button>
     <button onclick="showSection('letter')">💌 Carta</button>
