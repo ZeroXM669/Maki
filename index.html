@@ -7,26 +7,54 @@
 </head>
 <body>
 
-<div id="login" class="login-box">
-  <h1>Enter the secret code</h1>
-  <input type="password" id="code" placeholder="••••">
-  <button onclick="checkCode()">Enter</button>
+<div id="login">
+  <h1>Acceso protegido</h1>
+  <p>Ingresa el código secreto</p>
+  <input type="password" id="code" placeholder="Código">
+  <button onclick="checkCode()">Entrar</button>
   <p id="error"></p>
 </div>
 
 <div id="content" class="hidden">
   <h1>Bienvenida 💙</h1>
 
-<div class="menu">
-  <div id="letter" class="section hidden letter-box">
-  <h2>My Dearest,</h2>
-  <h3>A Letter For You</h3>
-  <p>
-    Aquí va tu carta 💙  
-    Escríbela tranquila, con lo que sientas.
-  </p>
+  <div class="menu">
+    <button onclick="showSection('music')">🎵 Música</button>
+    <button onclick="showSection('letter')">💌 Carta</button>
+    <button onclick="showSection('notes')">📝 Notas</button>
+    <button onclick="showSection('gallery')">🖼 Galería</button>
+  </div>
+
+  <div id="music" class="section hidden">
+    <h2>Música</h2>
+    <p><a href="TU_LINK_DE_SPOTIFY" target="_blank">Abrir playlist</a></p>
+  </div>
+
+  <div id="letter" class="section hidden">
+    <h2>Carta</h2>
+    <p>Escribe tu carta aquí 💙</p>
+  </div>
+
+  <div id="notes" class="section hidden">
+    <h2>Notas</h2>
+    <ul>
+      <li>Toma agüita 💧</li>
+      <li>Come algo hoy 🍎</li>
+      <li>Respira, todo va a estar bien</li>
+      <li>Siempre estoy contigo 💙</li>
+    </ul>
+  </div>
+
+  <div id="gallery" class="section hidden">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="img1.jpg">
+      <img src="img2.jpg">
+      <img src="img3.jpg">
+    </div>
+  </div>
 </div>
-  <button onclick="showSection('music')">🎵 Music</button>
-  <button onclick="showSection('notes')">📝 Notes</button>
-  <button onclick="showSection('gallery')">🖼 Gallery</button>
-</div>
+
+<script src="script.js"></script>
+</body>
+</html>
