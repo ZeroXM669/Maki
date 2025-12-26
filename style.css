@@ -44,3 +44,21 @@ body {
 .login-box button:hover {
   background: #357abd;
 }
+.menu {
+  margin-top: 20px;
+}
+
+.menu button {
+  background: #e6f2ff;
+  border: 1px solid #b6d9ff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #357abd;
+}
+
+.menu button:hover {
+  background: #cfe6ff;
+}
