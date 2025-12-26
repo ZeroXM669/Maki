@@ -39,4 +39,43 @@ button {
   margin: 10px;
   border-radius: 10px;
 }
+#login {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 80, 160, 0.25);
+  text-align: center;
+  width: 300px;
+}
 
+#login h1 {
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+#login input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #b6d9ff;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+#login button {
+  background: #4a90e2;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#login button:hover {
+  background: #357abd;
+}
