@@ -79,17 +79,3 @@ button {
 #login button:hover {
   background: #357abd;
 }
-.open-letter-btn {
-  background: #e6f2ff;
-  border: 1px solid #b6d9ff;
-  border-radius: 25px;
-  padding: 12px 30px;
-  font-size: 16px;
-  color: #357abd;
-  cursor: pointer;
-  margin-top: 40px;
-}
-
-.open-letter-btn:hover {
-  background: #cfe6ff;
-}
